@@ -1,4 +1,4 @@
-echo "pipeline {
+pipeline {
     agent any
 
     stages {
@@ -53,4 +53,4 @@ echo "pipeline {
             echo "Pipeline failed! ❌ Check logs."
         }
     }
-}" > Jenkinsfile
+}
