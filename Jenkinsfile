@@ -47,10 +47,10 @@ pipeline {
             sh 'docker logs jenkins-docker'
         }
         success {
-            echo "Pipeline executed successfully! ✅"
+            echo "✅ Pipeline executed successfully!"
         }
         failure {
-            echo "Pipeline failed! ❌ Check logs."
+            echo "❌ Pipeline failed! Check logs."
         }
     }
 }
